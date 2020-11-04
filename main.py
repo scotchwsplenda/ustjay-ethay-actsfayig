@@ -24,7 +24,7 @@ def pig_it(pig):
     factstring = str(facts.rsplit('Esultray')[1]).strip()
     address = str(r.url)
 
-    return '\n\n'.join([factstring, address])
+    return '\n'.join([factstring, address])
 
 
 @app.route('/')
